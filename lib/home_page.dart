@@ -8,9 +8,9 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.pink[200],
-        title: const Center(
-          child: Text("Simple Assignment"),
-        ),
+      ),
+      body: const Center(
+        child: Text("Home Page"),
       ),
     );
   }
